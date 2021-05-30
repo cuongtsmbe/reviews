@@ -1,0 +1,85 @@
+.App{
+  height:auto;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+
+}
+.App .container{
+  width:400px;
+  height:300px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+
+}
+.App .container .divImage{
+  width:100%;
+  height:30%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .container .divImage .image{
+  height:82px;
+  width:83px;
+ background-color: #6c8fff;
+ display: flex;
+ flex-direction: column-reverse;
+  border-radius:100%;
+  box-shadow: 5px 5px solid blue;
+}
+.App .container .divImage .image img{
+   height:80px;
+  width:80px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius:100%;
+ background-size: fixed;
+}
+
+.App .container .name,.job,.buttonStep{
+  width:100%;
+  height:10%;
+  align-content: center;
+  font-weight:bold;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .container .name{
+  font-size:15px;
+}
+.App .container .job{
+  font-size:12px;
+  color:#6c8fff;
+}
+.App .container .text{
+  width:100%;
+  height:30%;
+  font-size:13px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .container .text p{
+  padding:0px 6px;
+   text-align:center;
+ } 
+.App  .lineblue{
+  width:50px;
+  height:2px;
+  background-color:blue;
+  margin-bottom: 50px;
+}
+.App .container .buttonStep button {
+  border:0.5px solid #6c8fff;
+  background-color: white;
+  padding:5px 10px;
+  cursor: pointer;
+  color:#6c8fff;
+}
